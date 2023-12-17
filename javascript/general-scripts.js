@@ -29,5 +29,5 @@ function backToTop() {
 }
 
 function getFooterText(){
-    return `© ${new Date().getFullYear()} Claudia-Maria Munteanu. All rights reserved`;
+    return `© ${new Date().getFullYear()} Claudia-Maria Munteanu. All rights reserved.`;
 }
