@@ -40,6 +40,10 @@ a.navbar-brand {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
+.brand-name-menu{
+    display: none;
+} 
+
 #footer{
     background-color: var(--bs-tertiary-bg);
     padding: 15px 0 15px 0;
@@ -94,6 +98,10 @@ a.navbar-brand {
     justify-content: start;
 }
 
+.contact-card-content p{
+    word-break: break-all;
+}
+
 .office-contact-card-content{
     display: flex;
     flex-direction: row;
@@ -103,4 +111,16 @@ a.navbar-brand {
 
 .office-contact-card-content a{
     padding-top: 3px;
+}
+
+@media screen and (max-width: 425px) {
+    .brand-name{
+        display: none;
+    }
+
+    .brand-name-menu{
+        display: block;
+        padding-bottom: 10px;
+        border-bottom: 1px solid lightgray;
+    }
 }

@@ -35,6 +35,10 @@ a.navbar-brand {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
+.brand-name-menu{
+    display: none;
+} 
+
 #footer{
     background-color: var(--bs-tertiary-bg);
     padding: 15px 0 15px 0;
@@ -162,4 +166,17 @@ a.navbar-brand {
 
 .news-content div{
     margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 425px) {
+    .brand-name{
+        display: none;
+    }
+
+    .brand-name-menu{
+        display: block;
+        padding-bottom: 10px;
+        border-bottom: 1px solid lightgray;
+    }
 }
