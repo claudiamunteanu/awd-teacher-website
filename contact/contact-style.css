@@ -30,7 +30,7 @@ a{
     margin-right: 20px;
 }
 
-a.navbar-brand {
+div.navbar-brand {
     display: contents;
     color: var(--bs-navbar-active-color);
 }

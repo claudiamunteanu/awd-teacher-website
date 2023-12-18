@@ -36,6 +36,7 @@ a{
 #btn-back-to-top p{
     display: none;
     font-size: 10px;
+    font-weight: normal;
 }
 
 #btn-back-to-top:hover{
@@ -47,7 +48,7 @@ a{
     margin-right: 20px;
 }
 
-a.navbar-brand {
+div.navbar-brand {
     display: contents;
 }
 
