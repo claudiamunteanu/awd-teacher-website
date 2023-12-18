@@ -7,6 +7,14 @@ a{
     color: black;
 }
 
+.heading-2{
+    font-size: 2rem;
+}
+
+.heading-3{
+    font-size: 1.75rem;
+}
+
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -19,7 +27,7 @@ a{
 
 #btn-back-to-top p{
     display: none;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: normal;
 }
 
@@ -59,6 +67,7 @@ div.navbar-brand {
 
 .banner{
     background-image: url("../assets/blue_banner.jpg");
+    background-color: #123062;
     background-size:cover;
     color: white;
     height: 200px;
@@ -81,7 +90,7 @@ div.navbar-brand {
     padding: 30px;
 }
 
-.contact-card h3{
+.contact-card h2{
     font-weight: 700;
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
