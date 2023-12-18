@@ -7,6 +7,22 @@ a{
     color: black;
 }
 
+.heading-3{
+    font-size: 1.75rem;
+}
+
+.heading-4{
+    font-size: 1.5rem;
+}
+
+.heading-5{
+    font-size: 1.25rem;
+}
+
+.heading-6{
+    font-size: 1rem;
+}
+
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -65,11 +81,11 @@ a.navbar-brand {
    margin-bottom: 20px;
 }
 
-.profile-data h5{
+.profile-data .heading-5{
    color: dimgray;
 }
 
-.profile-data h6{
+.profile-data .heading-6{
     color: darkblue;
  }
 
@@ -88,16 +104,17 @@ a.navbar-brand {
 }
 
 .profile-data .social-media-icons{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .fa-github{
-    font-size: 24px;
+    font-size: 34px;
 }
 
 .fa-github:hover{
@@ -109,15 +126,15 @@ a.navbar-brand {
 }
 
 .fa-linkedin{
-    font-size: 25px;
+    font-size: 35px;
 }
 
-.about-me-section p{
+.about-me-section{
     font-size: 18px;
     text-align: justify;
 }
 
-.about-me-section h3{
+.about-me-section .heading-3{
     display: inline-block;
 }
 
@@ -130,7 +147,7 @@ a.navbar-brand {
     border-bottom: 1px solid lightgray;
 }
 
-.course h4{
+.course .heading-4{
     font-weight: 600;
 }
 .current-subjects{
@@ -153,7 +170,7 @@ a.navbar-brand {
     margin-bottom: 10px;
 }
 
-.news-content-row h4{
+.news-content-row .heading-4{
     font-weight: 600;
 }
 
@@ -166,7 +183,7 @@ a.navbar-brand {
     margin-right: 10px
 }
 
-.news-title h3{
+.news-title .heading-3{
     display: inline-block;
 }
 
