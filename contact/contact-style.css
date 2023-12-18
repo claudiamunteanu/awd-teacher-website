@@ -25,12 +25,6 @@ a{
     border-radius: 50%;
 }
 
-#btn-back-to-top p{
-    display: none;
-    font-size: 15px;
-    font-weight: normal;
-}
-
 #btn-back-to-top:hover{
     background-color: #3232a2;
 }
