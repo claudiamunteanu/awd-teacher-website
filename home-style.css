@@ -35,6 +35,7 @@ a{
 
 #btn-back-to-top p{
     display: none;
+    font-size: 10px;
 }
 
 #btn-back-to-top:hover{
