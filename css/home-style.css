@@ -126,6 +126,9 @@ a.navbar-brand {
     border-bottom: 1px solid lightgray;
 }
 
+.course h4{
+    font-weight: 600;
+}
 .current-subjects{
     padding-top: 20px;
 }
@@ -144,6 +147,10 @@ a.navbar-brand {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
+}
+
+.news-content-row h4{
+    font-weight: 600;
 }
 
 .news-title{
