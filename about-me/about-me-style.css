@@ -200,10 +200,24 @@ div.navbar-brand {
     font-size: 20px;
 }
 
-.hobbies-card img{
-    height: 200px;
-    margin-left: 50px;
-    margin-bottom: 50px;
+.hobbies-card h2{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.image{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    display: block;
+}
+
+.hobbies-card p:last-of-type{
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 576px){
