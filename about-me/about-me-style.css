@@ -220,6 +220,16 @@ div.navbar-brand {
     padding-bottom: 20px;
 }
 
+.first-row img{
+    width: 300px;
+    height: 300px;
+}
+
+.second-row img{
+    width: 225px;
+    height: 300px;
+}
+
 @media screen and (max-width: 576px){
     .about-me-card{
         display: flex;
