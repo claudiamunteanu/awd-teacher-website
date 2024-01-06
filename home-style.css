@@ -145,6 +145,11 @@ div.navbar-brand {
 .course .heading-4{
     font-weight: 600;
 }
+
+.course .heading-4:hover{
+    text-decoration: underline;
+}
+
 .current-subjects{
     padding-top: 20px;
 }
@@ -165,8 +170,16 @@ div.navbar-brand {
     margin-bottom: 10px;
 }
 
+.news-header a:hover{
+    text-decoration: underline;
+}
+
 .news-content-row .heading-4{
     font-weight: 600;
+}
+
+.news-content-row .heading-4:hover{
+    text-decoration: underline;
 }
 
 .news-title{
